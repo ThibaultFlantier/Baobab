@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sedgwick+Ave');
+* {
+box-sizing: border-box; /*permet de prendre en compte 
+le margin et le padding dans la taille totale de la 
+box*/
+border: 1px solid white;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+html {
+	color: white;
+	width: 100%;
+	margin: 0;
+	background-image: url(..img/fond-papier.jpg);
+}
+
+header {
+	text-align: center;
+	background-color: blue;	
+}
+
+body, html {
+	font-family: 'Roboto', sans-serif;	
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+	width: 960px; 
+	background-color: grey;
+}
+
+h1, h2, h3, h4, .intro { 
+	font-family: 'Sedgwick Ave', cursive;
+	font-size: 2em;
+}
+
+nav {
+	display: inline-block;
+	z-index: 1;
+}
+
+section {
+	margin: 50px 0;
+}
+
+#menumobile {
+	position: absolute;
+	background-color: black;
+	width: 100%;
+	position: relative;
+}
+
+#firstid {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#cafesex {
+	display: inline-block;
+	position: relative;
+}
+
+#grainrond {
+	float: left;
+	margin: 0 50px 50px 0;
+	border-radius: 50%;
+}
+
+#page {
+	
+}
+
+nav, ul, li {
+	display: inline-block;
+	justify-content: space-between;
+}
+
+#section1 {
+	
+}
+
+#section2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.carre {
+	flex: 0 0 30%;
+	background-color: black;
+	display: block;
+}
+
+#section3 {
+
+}
+
+#surimage {
+	position: absolute;
+	margin-top: -30%;
+	width: 20%;
+	margin-left: 40%;
+	justify-content: flex-end;
+}
+
+#ntm {
+display: flex;
+justify-content: space-between;
+}
+
+#cafepousse {
+	float: right;
+	margin-left: 50px;
+
+}
+
+.intro {
+	font-size: 1.2em;
+}
